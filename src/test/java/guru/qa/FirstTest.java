@@ -9,4 +9,11 @@ public class FirstTest {
     public void firstTest() {
         Assertions.assertTrue(3 > 2, "Неверно");
     }
+
+    @Test
+    public void secondTest() {
+        Assertions.assertTrue(3 > 1, "Неверно");
+    }
 }
+
+
